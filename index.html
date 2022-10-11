@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
+    />
+    <title>Twitter</title>
+  </head>
+  <body>
+    <!--? start navbar -->
+    <header>
+      <div class="container">
+        <div class="block">
+          <div class="header">
+            <div class="header_logo">
+              <img
+                src="https://st2.depositphotos.com/3994049/9828/v/600/depositphotos_98284950-stock-illustration-bird-icon-sign-on-white.jpg"
+                alt=""
+              />
+              <h2>Twitter</h2>
+            </div>
+            <div class="header_center">
+              <ul>
+                <li>Главная</li>
+                <li>Создать пост</li>
+                <li>Удалить пост</li>
+                <li>Редактировать</li>
+              </ul>
+            </div>
+            <div class="search-box">
+              <input type="text" class="search-txt" placeholder="Поиск поста" />
+              <a href="#" class="search-btn"
+                ><img
+                  src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png"
+                  alt=""
+                  width="20px"
+              /></a>
+            </div>
+
+            <div class="burger-menu">
+              <img
+                src="https://cdn2.iconfinder.com/data/icons/basic-gradient/512/xxx027-512.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--* end navbar -->
+    <!-- ?section start -->
+    <section class="first__section">
+      <div class="container">
+        <div class="bg__side">
+          <div class="create">
+            <img
+              src="https://thumbs.dreamstime.com/b/cute-boy-face-cartoon-cute-boy-face-cartoon-vector-illustration-graphic-design-110654225.jpg"
+              width="60px"
+              alt="person"
+            />
+            <div class="create-col">
+              <textarea
+                name=""
+                id="text-area"
+                cols="20"
+                rows="2"
+                placeholder="Что нового?"
+              ></textarea>
+              <input
+                type="url"
+                id="inp-url"
+                placeholder="Подставьте URL адрес"
+              />
+              <button class="create__btn">Создать пост</button>
+            </div>
+          </div>
+          <div id="section__read"></div>
+          <div class="paginate">
+            <button id="prev-btn">Предыдущая страница</button>
+            <button id="next-btn">Следующая страница</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *section end -->
+
+    <!--? footer start -->
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+      <p>© 2022 Twitter, Inc.</p>
+    </footer>
+    <!-- Edit start -->
+    <div class="main-modal">
+      <div class="main-modal__window">
+        <button class="window__edit_close">X</button>
+        <input type="text" class="window__text-area" placeholder="Описание" />
+        <input
+          type="url"
+          class="window__edit_url"
+          placeholder="URL изображения"
+        />
+        <button class="window__edit_btn-save">Изменить</button>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!-- * footer end -->
+    <script src="./main.js"></script>
+  </body>
+</html>
